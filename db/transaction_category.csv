@@ -1,0 +1,81 @@
+category,income_expense_category,category_group,category_order
+Unknown,Unknown,Unknown,9999
+Salary,Income,Income,1
+Rental income,Income,Income,2
+Bonuses / overtime,Income,Income,3
+Income from savings and investments,Income,Income,4
+Medicare benefits,Income,Income,5
+Centrelink benefits,Income,Income,6
+Family benefit payments,Income,Income,7
+Tax,Expense - essential,Tax,8
+Land tax,Expense - essential,Tax,9
+Mortgage & rent,Expense - essential,Home & utilities,10
+Body corporate fees,Expense - essential,Home & utilities,11
+Council rates,Expense - essential,Home & utilities,12
+Furniture & appliances,Expense - essential,Home & utilities,13
+Renovations & maintenance,Expense - essential,Home & utilities,14
+Electricity,Expense - essential,Home & utilities,15
+Gas,Expense - essential,Home & utilities,16
+Water,Expense - essential,Home & utilities,17
+Internet,Expense - essential,Home & utilities,18
+Pay TV,Expense - essential,Home & utilities,19
+Home phone,Expense - essential,Home & utilities,20
+Mobile,Expense - essential,Home & utilities,21
+Bank fees,Expense - essential,Insurance & financial,22
+Car insurance,Expense - essential,Insurance & financial,23
+Home & contents insurance,Expense - essential,Insurance & financial,24
+Personal & life insurance,Expense - essential,Insurance & financial,25
+Health insurance,Expense - essential,Insurance & financial,26
+Car loan,Expense - essential,Insurance & financial,27
+Credit card interest,Expense - essential,Insurance & financial,28
+Investments & super contributions,Expense - discretionery,Insurance & financial,29
+Charity donations,Expense - discretionery,Insurance & financial,30
+Supermarket,Expense - essential,Groceries,31
+Butcher,Expense - essential,Groceries,32
+Fruit & veg market,Expense - essential,Groceries,33
+Fish shop,Expense - essential,Groceries,34
+Deli & bakery,Expense - essential,Groceries,35
+Pet food,Expense - discretionery,Groceries,36
+Cosmetics & toiletries,Expense - discretionery,Personal & medical,37
+Hair & beauty,Expense - discretionery,Personal & medical,38
+Medicines & pharmacy,Expense - essential,Personal & medical,39
+Glasses & eye care,Expense - essential,Personal & medical,40
+Dental,Expense - essential,Personal & medical,41
+Doctors & medical,Expense - essential,Personal & medical,42
+Hobbies,Expense - discretionery,Personal & medical,43
+Clothing & shoes,Expense - discretionery,Personal & medical,44
+Jewellery & accessories,Expense - discretionery,Personal & medical,45
+Computers & gadgets,Expense - discretionery,Personal & medical,46
+Sports & gym,Expense - discretionery,Personal & medical,47
+Pet care & vet,Expense - discretionery,Personal & medical,49
+Education,Expense - essential,Personal & medical,48
+Professional,Expense - essential,Personal & medical,50
+Dry cleaning,Expense - essential,Personal & medical,51
+Coffee & tea,Expense - discretionery,Entertainment & eat-out,52
+Lunches bought,Expense - discretionery,Entertainment & eat-out,53
+Take-away & snacks,Expense - discretionery,Entertainment & eat-out,54
+Drinks & alcohol,Expense - discretionery,Entertainment & eat-out,55
+Bars & clubs,Expense - discretionery,Entertainment & eat-out,56
+Restaurants,Expense - discretionery,Entertainment & eat-out,57
+Books,Expense - discretionery,Entertainment & eat-out,58
+Newspapers & magazines,Expense - discretionery,Entertainment & eat-out,59
+Movies & music,Expense - discretionery,Entertainment & eat-out,60
+Holidays,Expense - discretionery,Entertainment & eat-out,61
+Celebrations & gifts,Expense - discretionery,Entertainment & eat-out,62
+Other entertainment,Expense - discretionery,Entertainment & eat-out,63
+Bus & train & ferry,Expense - essential,Transport & auto,64
+Petrol,Expense - essential,Transport & auto,65
+Road tolls & parking,Expense - essential,Transport & auto,66
+Rego & licence,Expense - essential,Transport & auto,67
+Repairs & maintenance,Expense - essential,Transport & auto,68
+Fines,Expense - essential,Transport & auto,69
+Airfares,Expense - discretionery,Transport & auto,70
+Passport,Expense - essential,Transport & auto,71
+Toys,Expense - discretionery,Children,72
+Childcare,Expense - essential,Children,73
+Sports & activities,Expense - essential,Children,74
+School fees,Expense - essential,Children,75
+Other school needs,Expense - essential,Children,76
+Bank transfer,Banking,Exclude,77
+Bank payment,Banking,Exclude,78
+ATM withdrawal,Banking,Exclude,79
