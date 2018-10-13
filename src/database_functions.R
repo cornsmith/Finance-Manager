@@ -25,3 +25,14 @@ sql_values <- function(...){
 sql_quote <- function(char){
   shQuote(char, "sh")
 }
+
+sql_update <- function(update_table, set_fields, source_fields, source_values, key){
+  paste(
+    "UPDATE", update_table,
+    "SET", paste(paste0(set_fields, " = SRC.", set_fields), collapse = ","),
+    "FROM (VALUES", source_values, ") AS SRC",
+    "(", paste(source_fields, collapse = ","), ")", 
+    "WHERE", paste(paste0(update_table, ".", key, " = SRC.", key), collapse = " AND "),
+    ";"
+  )
+}

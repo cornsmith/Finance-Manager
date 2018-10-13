@@ -1,4 +1,4 @@
-category,income_expense_category,category_group,category_order
+transaction_category,income_expense_category,transaction_category_group,display_order
 Unknown,Unknown,Unknown,9999
 Salary,Income,Income,1
 Rental income,Income,Income,2

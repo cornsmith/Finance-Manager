@@ -12,7 +12,8 @@ CREATE OR REPLACE VIEW public.account_view AS
 
 CREATE OR REPLACE VIEW public.transaction_detail_view AS
 	select
-		a1.account_number
+	  t1.id
+		, a1.account_number
 		, at1.account_type
 		, at1.account_type_group
 		, d1.description
@@ -20,6 +21,7 @@ CREATE OR REPLACE VIEW public.transaction_detail_view AS
 		, t1.amount
 		, tc1.transaction_category
 		, tc1.transaction_category_group
+		, tc1.income_expense_category
 		, tc1.display_order
 		
 	from 

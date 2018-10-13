@@ -40,7 +40,7 @@ CREATE TABLE public.transaction_category
     id serial NOT NULL,
     transaction_category text NOT NULL,
     transaction_category_group text NOT NULL,
-    --income_expense_category text NOT NULL,
+    income_expense_category text NOT NULL,
     display_order integer NOT NULL DEFAULT(0),
 
     PRIMARY KEY (id)
